@@ -1,0 +1,40 @@
+// Fuentes
+$fuente-principal: "IBM Plex Mono", monospace;
+$fuente-secundaria: "IBM Plex Sans", sans-serif;
+
+// Medias Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1500px;
+
+// Colores
+$principal: #060a24;
+$secundario: #00f3bb;
+$terciario: #ffffff;
+$cuaternario: #0000ec;
+$gradiente-fondo-color1: #0000ff;
+$gradiente-fondo-color2: #0000a3;
+$gradiente-hover-boton-color1: #0000fe;
+$gradiente-hover-boton-color2: #00f0b8;
+
+//desktop sizes
+$desktop-max-width: 1440px;
+$desktop-body-height: 3902px;
+$desktop-header-height: $desktop-body-height * 0.02;
+$desktop-landing-height: $desktop-body-height * 0.078;
+$desktop-conoce-mas-height: $desktop-body-height * 0.015;
+$desktop-podcast-height: $desktop-body-height * 0.267;
+$desktop-de-donde-venimos-height: $desktop-body-height * 0.201;
+$desktop-invitadas-estelares-height: $desktop-body-height * 0.211;
+$desktop-algunos-de-nuestros-temas-height: $desktop-body-height * 0.109;
+$desktop-ultimas-novedades-height: $desktop-body-height * 0.132;
+$desktop-footer-height: $desktop-body-height * 0.024;
+$factor: $desktop-body-height/100vh;
+
+//tablet sizes
+$tablet-podcast-height: $desktop-body-height * 0.35;
+
+//telefono sizes
+$telefono-max-width: 320px;
+$telefono-body-height: 5500px;
+$telefono-header-height: $telefono-body-height * 0.008;
